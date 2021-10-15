@@ -1,0 +1,135 @@
+body {
+  background-color: #00c4d4;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'monospace';
+  color: #808080;
+  text-align: center
+}
+
+h1, h2, h3 {
+	color: white;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  border: 1px solid #1a1a1a;
+  font-size: calc(0.5vw + 0.5vh + 0.7vmin);
+  padding: 0.5em;
+  background-color: #f8e7d5;
+}
+
+td:hover {
+  background-color: #fff5ea;
+}
+
+
+pre {
+  background-color: #f8e7d5;
+  border: 1px solid #1a1a1a;
+  font-size: 6px;
+  padding: 20px;
+  color: #999999
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+details {
+  cursor: pointer;
+  background-color: #f8e7d5;
+  text-align: left;
+  margin-top: 20px;
+  padding: 0.5em;
+  border: 1px solid #1a1a1a;
+  font-size: 13px
+}
+
+summary {
+  outline: none;
+  padding: 0.5em;
+}
+
+.blockt {
+  border: 1px solid #1a1a1a;
+  padding: 0.3em;
+  background-color: #0d0d0d;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 13px;
+  word-wrap: break-word
+}
+
+.block {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 13px
+}
+
+.block p {
+  border: 1px solid #1a1a1a;
+  padding: 0.7em;
+  background-color: #f8e7d5;
+}
+
+.blockt p {
+  padding-left: 0.7em;
+  padding-right: 0.7em
+}
+
+.links {
+  margin: 20px;
+  font-size: 14px
+}
+
+a:link {
+  color: #808080;
+  text-decoration: none
+}
+
+a:visited {
+  color: #808080
+}
+
+a:hover {
+  color: #808080
+}
+
+.links-range {
+	color: white;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333333 #101010
+}
+
+::-webkit-scrollbar {
+  width: 6px
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333
+}
+
+@media only screen and (max-width: 600px) {
+  .links {
+    background-color: lightblue;
+  }
+}
